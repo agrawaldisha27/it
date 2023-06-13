@@ -1,0 +1,21 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* to fix a image */
+.blue{
+    position:fixed;
+    top: 250px;
+    left: 50px;
+}
+
+/* to stick to site 
+a bit sme to fix */
+.kimg{
+    position: sticky;
+    top: 200px;
+    left: 500px;
+}
