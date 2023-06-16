@@ -1,0 +1,133 @@
+:root{
+    --primarycolour:#73A9AD;
+    --backgroundcolour:#90C8AC;
+    --primaryacentcolour:#C4DFAA;
+    --secondarycolour:#F5F0BB;
+    --whitecolour:white;
+    --blaclcolour:black;
+    --primartfont:"Open Sans", sans-serif;
+    --firstheight:40px;
+    --cursivefont: "Lobster", cursive;
+}
+
+body{
+    font-family: var(--primartfont);
+    /* background-color: var(--backgroundcolour); */
+    background: linear-gradient(
+        40deg,
+        var(--primaryacentcolour),
+        /* var(--primarycolour), */
+        var(--secondarycolour)
+    );
+    padding: 40px;
+}
+.box{
+    background-color: var(--whitecolour);
+    margin: 20px;
+    padding: 15px;
+}
+.first{
+    display: flex;
+    height:var(--firstheight);
+    justify-content:space-between;
+    background-color: var(--whitecolour);
+    margin-top: 2px;
+}
+.logo{
+    display: flex;
+    /* height: var(--firstheight); */
+}
+.navi{
+    padding:16px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.contact{
+    /* height: var(--firstheight); */
+    display: flex;
+}
+.second{
+    background: linear-gradient(
+        40deg,
+        var(--primaryacentcolour),
+        var(--primarycolour),
+        var(--secondarycolour)
+    );
+    display: flex;
+    margin-top: 5px;
+    justify-content:space-around;
+    /* text-align: center; */
+    font-family: var(--cursivefont);
+    height: auto;
+}
+.name{
+    padding: 0px 0px;
+}
+.selfimg{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+.primg{
+    height: 400px;
+    width: 300px;
+    /* display:; */
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+.cvbutton{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: var(--primarycolour);
+}
+.text1{
+    text-align: center;
+}
+/* .my */.what{
+    color: var(--primaryacentcolour);
+}
+
+.servicecards{
+    display: flex;
+    justify-content: space-around;
+}
+.servicecardicon{
+    /* height: 30px; */
+    /* width: 30px; */
+    background-color: var(--primarycolour);
+    color: var(--whitecolour);
+
+}
+.schead{
+    margin: 0px 2px;
+}
+.scbody{
+    font-size: 10px;
+    
+}
+.servicecard{
+    border:solid 3px rgba(0, 0, 0, 0.47);
+    padding: 4px;
+    /* margin: 10px; */
+}
+.servicecard:hover{
+    border:none;
+    box-shadow :2px 2px 2px 2px rgba(0, 0, 0, 0.35);
+     /* .servicecardicon{  */
+        /* height: 30px; */
+        /* width: 30px;  */
+        background-color: var(--primaryacentcolour);
+        /* color: var(--whitecolour); */
+     
+     /* }  */
+}
+/* .servicecardicon:hover{ 
+    height: 30px;
+    width: 30px; 
+    background-color: var(--whitecolour);
+    color: var(); */
