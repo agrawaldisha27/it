@@ -67,7 +67,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px;
 }
-.primg{
+.primg, .left4-img{
     height: 400px;
     width: 300px;
     /* display:; */
