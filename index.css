@@ -67,7 +67,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px;
 }
-.primg, .left4-img{
+.primg{
     height: 400px;
     width: 300px;
     /* display:; */
@@ -131,3 +131,11 @@ a{
     width: 30px; 
     background-color: var(--whitecolour);
     color: var(); */
+ .fourth{
+    margin: 5px, 0px;
+ }
+.left4-img{
+    height: 330px;
+    width: 300px;
+}
+
